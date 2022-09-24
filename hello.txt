@@ -1,4 +1,4 @@
-node ('kota')
+node ('kota krishna')
 {
     java = tool name : "jdk 8"
     env.JAVA_HOME = "${java}"
