@@ -1,14 +1,14 @@
-node ('kota krishna chaithanya')
+ode ('kota krishna chaithanya')
 
 {
     java = tool name : "jdk 8"
-    env.JAVA_HOME = "${java}"
+    env.JAVA_HOME = "${krishna}"
     
     stage('git')
     {
        // git branch: 'development', credentialsId: '2b9d1224-1b82-4047-89a4-d438580e52f3', url: 'https://github.com/chaithanya-kota/maven-web-application.git'
     }
-    stage('build')
+    stage('kota')
     {
        // def maven = tool name : "maven3.6.2"
        // sh "${maven}/bin/mvn package"
