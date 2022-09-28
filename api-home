@@ -1,3 +1,23 @@
+
 hi i am anil,
 I am working on face-book project,
-in this project , I am head of api-home module.
+in this project , I am head of api-home module
+
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+  
